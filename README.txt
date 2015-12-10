@@ -1,5 +1,4 @@
-This is a admin script to delete users that are not enrolled in any course. 
-It helps to bann spam users from your system.
+This script helps to activate web services for our Moodle blocks.
 
 Written by GTN-Solutions.
 
