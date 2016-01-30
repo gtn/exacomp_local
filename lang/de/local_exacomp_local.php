@@ -27,6 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['exacomp_local:execute'] = 'Exabis Competencies: Webservices aktivieren';
 $string['pluginname'] = 'Exabis Competencies Hilfs-Skripten';
-$string['if_enabled'] = 'Wenn Sie alle restlichen Schritte, die in der Datei "webservices-info.txt" aufgelistet sind, erledigt haben, sind die Exabis Competencies Webservices hiermit aktiviert.';
+$string['status_header'] = 'Die folgenden Schritte sind notwendig um Exabis Competencies Webservices zu aktiviert.';
 $string['something_went_wrong'] = 'Es trat ein Problem auf.';
 $string['exacomp_local:checkforcomp'] = 'Exabis Competencies: Automatischen Kompetenzerwerb ausführen';

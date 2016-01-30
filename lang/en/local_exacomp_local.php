@@ -16,6 +16,6 @@
 
 $string['exacomp_local:execute'] = 'Enable Exabis Competencies webservices';
 $string['pluginname'] = 'Exabis Competencies Support-scripts';
-$string['if_enabled'] = 'If you have done all steps required in "werbservice_info.txt" Exabis Competencies webservices are now enabled';
+$string['status_header'] = 'Please follow the steps below to enable Exabis Competencies webservices';
 $string['something_went_wrong'] = 'Exabis Competencies webservices are not installed.';
 $string['exacomp_local:checkforcomp'] = 'Exabis Competencies: Automatical competence assignment based on user tests';
