@@ -134,19 +134,24 @@ if($action == 'ws') {
 	$status = '';
 	//set shortname for external service exacompservices
 	$exacomp_service = $DB->get_record('external_services', array('name'=>'exacompservices'));
-	if($exacomp_service){
-		$exacomp_service->shortname = 'exacompservices';
-		$DB->update_record('external_services', $exacomp_service);
-	}else{
+	if (!$exacomp_service) {
 		$status .= html_writer::tag('span', 'Exacompservice not found', array('class' => 'statuscritical'));
 	}
+	// not needed anymore
+	/*
+		$exacomp_service->shortname = 'exacompservices';
+		$DB->update_record('external_services', $exacomp_service);
+	*/
+
     $exaport_service = $DB->get_record('external_services', array('name'=>'exaportservices'));
-	if($exaport_service){
-		$exaport_service->shortname = 'exaportservices';
-		$DB->update_record('external_services', $exaport_service);
-	}else{
+	if (!$exaport_service) {
 		$status .= html_writer::tag('span', 'Exaportservice not found', array('class' => 'statuscritical'));
 	}
+	// not needed anymore
+	/*
+		$exaport_service->shortname = 'exaportservices';
+		$DB->update_record('external_services', $exaport_service);
+	*/
 
 	if (empty($status)) {
 		$status = html_writer::tag('span', get_string('ok'), array('class' => 'statusok'));
